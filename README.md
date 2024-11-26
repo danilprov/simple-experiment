@@ -15,6 +15,7 @@ $$
 There are two models:
 1. A classical supervised learning model that fits $x$ to $y$ directly
 2. A $z$-augmented model, analogous to the search-augmented approach in the paper. This model proceeds in two steps: first, using the oracle data, it fits $x$ to $z$; second, exploiting the structural assumption, it reconstructs label $y$ from $z$
+
 ![image](acc_vs_trainsize.png)
 
 The experimental details are provided in `synthetic_experiment.ipynb`
